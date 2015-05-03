@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'polls',
     'blog',
     'bookstore',
+    'user',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -123,3 +124,5 @@ TEMPLATES = [
         },
     },
 ]
+
+AUTH_USER_MODEL = 'user.MyUser'
